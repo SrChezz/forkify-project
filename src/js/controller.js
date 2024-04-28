@@ -46,6 +46,7 @@ const controlSearchResults = async function () {
 
     // 1) Get search query
     query = searchView.getQuery();
+    console.log('query');
     if (!query) return;
 
     // 2) Load search results
